@@ -6,7 +6,7 @@ function LandingPage() {
       <div>
         <header className="bg-success text-white p-4">
           <div className="container d-flex justify-content-between align-items-center">
-            <h1 className="h2">Culinary Recipes</h1>
+            <h1 className="h2">CookUp</h1>
             <nav>
               <ul className="nav">
                 <li className="nav-item">
@@ -16,7 +16,7 @@ function LandingPage() {
                   <a className="nav-link text-white" href="#recipes">Recipes</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#contact">Contact</a>
+                  <a className="nav-link text-white" href="#contact">Add Recipe</a>
                 </li>
               </ul>
             </nav>
@@ -25,7 +25,7 @@ function LandingPage() {
         
         <main className="container my-5">
           <section id="home" className="text-center my-5">
-            <h2 className="display-4 text-success">Welcome to Culinary Recipes</h2>
+            <h2 className="display-4 text-success">Welcome to CookUp</h2>
             <p className="lead text-muted">Share and discover amazing recipes from around the world!</p>
           </section>
           
@@ -84,7 +84,7 @@ function LandingPage() {
         </main>
         
         <footer className="bg-success text-white text-center p-4">
-          <p>&copy; 2024 Culinary Recipes. All rights reserved.</p>
+          <p>&copy; 2024 CookUp. All rights reserved.</p>
         </footer>
       </div>
     );
